@@ -23,6 +23,7 @@ int main(void)
       printf("\n");
   }
   printf("num[2][3] = %d\n", num[2][3]);
+    printf("Размер массива num = %ld байт\n", col*row*sizeof(int));
 
   return 0;
 }
